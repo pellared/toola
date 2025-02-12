@@ -2,6 +2,8 @@ module github.com/pellared/toola
 
 go 1.24.0
 
+tool github.com/golangci/golangci-lint/cmd/golangci-lint
+
 require github.com/pellared/toolb v0.0.0-20250212113746-c4dbca7a5d82
 
 require (
@@ -191,5 +193,3 @@ require (
 	mvdan.cc/gofumpt v0.7.0 // indirect
 	mvdan.cc/unparam v0.0.0-20240528143540-8a5130ca722f // indirect
 )
-
-tool github.com/golangci/golangci-lint/cmd/golangci-lint
